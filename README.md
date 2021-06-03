@@ -6,7 +6,7 @@ This is a modified version of KensurBot that is deployable to Clever Cloud.
 
 You may just fork this or apply the commits I made to your own fork of KensurBot (recommended since you can just fetch the upstream for updating).
 
-The deployment process is pretty simple, connect your forked repo to your Clever Cloud account, add the variables listed in app.json (add DATABASE_URL var too since it's not there), and deploy it.
+The deployment process is pretty simple, connect your forked repo to your Clever Cloud account, add the variables as they are listed in app.json (add DATABASE_URL var too since it's not there), and deploy it.
 ## Disclaimer
 
 ```
