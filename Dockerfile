@@ -1,9 +1,10 @@
 FROM kenhv/kensurbot:debian
 
 RUN set -ex \
-    && git clone -b master https://github.com/KenHV/KensurBot /root/userbot \
+    && git clone -b master https://github.com/yayanksenpai/KensurBot-clever /root/userbot \
     && chmod 777 /root/userbot
 
 WORKDIR /root/userbot/
-
-CMD ["python3", "-m", "userbot"]
+RUN pip3 install flask
+RUN pip3 install flask_restful
+CMD ["bash","start.sh"]
