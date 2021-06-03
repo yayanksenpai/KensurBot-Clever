@@ -1,7 +1,7 @@
 FROM kenhv/kensurbot:debian
 
 RUN set -ex \
-    && git clone -b master https://github.com/yayanksenpai/KensurBot-clever /root/userbot \
+    && git clone -b master https://github.com/yayanksenpai/KensurBot-Clever /root/userbot \
     && chmod 777 /root/userbot
 
 WORKDIR /root/userbot/
