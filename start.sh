@@ -1,2 +1,2 @@
-python3 clever.py &
+http-server -p $PORT &
 python3 -m userbot
