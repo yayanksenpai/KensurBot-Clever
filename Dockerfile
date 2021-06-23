@@ -7,4 +7,5 @@ RUN set -ex \
 WORKDIR /root/userbot/
 RUN apt install nodejs npm
 RUN apt install nginx
+RUN npm install http-server -g
 CMD ["bash","start.sh"]
