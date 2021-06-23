@@ -5,6 +5,6 @@ RUN set -ex \
     && chmod 777 /root/userbot
 
 WORKDIR /root/userbot/
-RUN pip3 install flask
-RUN pip3 install flask_restful
+RUN apt install nodejs npm
+RUN apt install nginx
 CMD ["bash","start.sh"]
